@@ -1,9 +1,10 @@
-class CartPgae {    
+class CartPage {    
     productProdVisible(){
         return cy.get('.product:visible')
     }
-    searchProText() {
+
+    searchText() {
         return cy.get('.search-keyword')
     }
 }
-export default CartPgae;
+export default CartPage;
