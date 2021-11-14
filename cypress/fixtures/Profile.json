@@ -2,5 +2,8 @@
     "Name":"RAYAN",
     "LastName": "Roy",
     "Address":"KOlkata",
-    "prod":"updated"
+    "prod":"updated",
+    "FullName":[
+        "Gobinda", "Roy"
+    ]
 }
