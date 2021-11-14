@@ -2,5 +2,8 @@
     "Check":"Main4",
     "firstCommit":"No",
     "secondCommit":"Yes",
-    "mainCoom":"tes"
+    "mainCoom":"tes",
+    "cards":[
+        "VISA","MASTERCARD"
+    ]
 }
