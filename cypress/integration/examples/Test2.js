@@ -14,5 +14,12 @@ describe('My FirstSuite',function(){
         cy.checkd()
         
     })
+    it('Items 3', function() {
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+        cy.get('.cart-icon>img').click()
+        cy.contains('PROCEED TO CHECKOUT').click()
+        cy.contains('Place Order').click()
+        
+    })
 
 })
