@@ -53,4 +53,20 @@ describe('Cart Test', function(){
         cy.contains('Place Order').click()
         
     })
+
+    it('Test Code', function() {
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+        cy.get('.search-keyword').type('ca')
+        cy.get('.products').find('.product').each(($el, index,$list) => {
+            const vegName=$el.find('h4.product-name').text()
+            if(vegName.includes(this.data.item1))
+            {
+                cy.wrap($el.find('button[type="button"]')).click()
+            }
+        });
+        cy.get('.cart-icon>img').click()
+        cy.contains('PROCEED TO CHECKOUT').click()
+        cy.contains('Place Order').click()
+        
+    })
 })
