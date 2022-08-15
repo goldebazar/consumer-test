@@ -77,5 +77,4 @@ describe('Cart Test', function(){
         cy.contains('Place Order').click()
         
     })
-    
 })
