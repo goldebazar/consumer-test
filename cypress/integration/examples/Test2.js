@@ -21,6 +21,9 @@ describe('My FirstSuite',function(){
         cy.contains('Place Order').click()
         
     })
+    describe('prod local',function(){
+
+    })
     describe('prod suite2sd',function(){
 
     })
