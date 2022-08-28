@@ -27,7 +27,10 @@ describe('My FirstSuite',function(){
     describe('prod suite2sd',function(){
 
     })
-    describe('prod suitdsde2sd',function(){
+    describe('Gobinda Updated',function(){
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+    })
+    describe('add to cart',function(){
 
     })
 
