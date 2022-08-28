@@ -34,5 +34,8 @@ describe('My FirstSuite',function(){
     describe('add to cart',function(){
 
     })
+    describe('Gobinda Updated',function(){
+        cy.visit('https://rahulshettyacademy.com99/seleniumPractise/#/')
+    })
 
 })

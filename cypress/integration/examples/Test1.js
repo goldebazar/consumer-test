@@ -62,9 +62,10 @@ describe('Cart Test', function(){
         
     })
     /**
-     * Test code
-     * Param
+     * Test Code
+     * Simple
      */
+
     it('Test Code', function() {
         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
         cy.get('.search-keyword').type('ca')
