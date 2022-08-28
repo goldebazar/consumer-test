@@ -28,7 +28,8 @@ describe('My FirstSuite',function(){
 
     })
     describe('Gobinda Updated',function(){
-        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+        cy.visit('https://rahulshettyacademy.com1/seleniumPractise/#/')
+        console.log("Print")
     })
     describe('add to cart',function(){
 

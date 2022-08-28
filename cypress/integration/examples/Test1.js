@@ -61,7 +61,10 @@ describe('Cart Test', function(){
         cy.contains('Place Order').click()
         
     })
-
+    /**
+     * Test code
+     * Param
+     */
     it('Test Code', function() {
         cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
         cy.get('.search-keyword').type('ca')
