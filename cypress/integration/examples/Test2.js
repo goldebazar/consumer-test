@@ -14,5 +14,28 @@ describe('My FirstSuite',function(){
         cy.checkd()
         
     })
+    it('Items 3', function() {
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+        cy.get('.cart-icon>img').click()
+        cy.contains('PROCEED TO CHECKOUT').click()
+        cy.contains('Place Order').click()
+        
+    })
+    describe('prod local',function(){
+
+    })
+    describe('prod suite2sd',function(){
+
+    })
+    describe('Gobinda Updated',function(){
+        cy.visit('https://rahulshettyacademy.com1/seleniumPractise/#/')
+        console.log("Print")
+    })
+    describe('add to cart',function(){
+
+    })
+    describe('Gobinda Updated',function(){
+        cy.visit('https://rahulshettyacademy.com99/seleniumPractise/#/')
+    })
 
 })
